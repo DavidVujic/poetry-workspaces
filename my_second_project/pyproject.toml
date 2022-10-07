@@ -9,7 +9,6 @@ packages = [
             {include = "second"},
             {include = "components/log", from = "../"},
             {include = "components/greet", from = "../"},
-            {include = "components/text", from = "../"},
 ]
 
 [tool.poetry.dependencies]
