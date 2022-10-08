@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "poetry-workspaces"
+name = "first_project"
 version = "0.1.0"
 description = ""
 authors = ["David Vujic <david@vujic.se>"]
 license = "MIT"
 readme = "README.md"
 packages = [
-            {include = "my_project"},
-            {include = "components/log", from = "../"},
-            {include = "components/greet", from = "../"},
+            {include = "demo/first", from = "../../bases"},
+            {include = "demo/log", from = "../../components"},
+            {include = "demo/greet", from = "../../components"},
 ]
 
 [tool.poetry.dependencies]
