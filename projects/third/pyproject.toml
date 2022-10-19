@@ -2,7 +2,7 @@
 name = "third_project"
 version = "0.1.0"
 description = ""
-authors = ["David Vujic <david@vujic.se>"]
+authors = ["David Vujic <@davidvujic>"]
 license = "MIT"
 readme = "README.md"
 packages = [
