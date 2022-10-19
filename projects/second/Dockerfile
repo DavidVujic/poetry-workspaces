@@ -9,4 +9,4 @@ COPY ./dist/second_project-0.1.0-py3-none-any.whl /code/second_project-0.1.0-py3
 RUN pip install --no-cache-dir --upgrade /code/second_project-0.1.0-py3-none-any.whl
 
 
-CMD ["python", "-m", "demo.second.main"]
+CMD ["python", "-m", "demo.my_handler.main"]

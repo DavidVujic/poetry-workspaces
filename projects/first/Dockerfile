@@ -11,7 +11,7 @@ COPY ./dist/$wheel /code/$wheel
 RUN pip install --no-cache-dir --upgrade /code/$wheel
 
 
-CMD ["python", "-m", "demo.first.main"]
+CMD ["python", "-m", "demo.my_endpoint.main"]
 
 # Example if this were a FastAPI app
-# ENTRYPOINT ["uvicorn", "demo.first:app", "--host:0.0.0.0", "---port=5000"]
+# ENTRYPOINT ["uvicorn", "demo.my_endpoint:app", "--host:0.0.0.0", "---port=5000"]
