@@ -1,14 +1,13 @@
 [tool.poetry]
-name = "first_project"
+name = "third_project"
 version = "0.1.0"
 description = ""
-authors = ["David Vujic <@davidvujic>"]
+authors = ["David Vujic <david@vujic.se>"]
 license = "MIT"
 readme = "README.md"
 packages = [
-            {include = "demo/my_endpoint", from = "../../bases"},
-            {include = "demo/log", from = "../../components"},
-            {include = "demo/greet", from = "../../components"},
+            {include = "third"},
+            {include = "hello/world", from = "libs"},
 ]
 
 [tool.poetry.dependencies]

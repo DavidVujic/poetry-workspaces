@@ -2,11 +2,11 @@
 name = "second_project"
 version = "0.1.0"
 description = ""
-authors = ["David Vujic <david@vujic.se>"]
+authors = ["David Vujic <@davidvujic>"]
 license = "MIT"
 readme = "README.md"
 packages = [
-            {include = "demo/second", from = "../../bases"},
+            {include = "demo/my_handler", from = "../../bases"},
             {include = "demo/log", from = "../../components"},
             {include = "demo/greet", from = "../../components"},
 ]
