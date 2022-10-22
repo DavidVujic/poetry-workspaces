@@ -1,14 +1,12 @@
 [tool.poetry]
-name = "third_project"
+name = "fourth_project"
 version = "0.1.0"
 description = ""
 authors = ["David Vujic <@davidvujic>"]
 license = "MIT"
 readme = "README.md"
 packages = [
-            {include = "third"},
-            {include = "world", from = "libs/hello"},
-]
+            {include = "fourth", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
