@@ -1,2 +1,7 @@
+from demo.log import log
+
+logger = log.getLogger("THIS IS THE FIFTH")
+
+
 def hello():
-    return "world"
+    logger.info("HELLO WORLD")

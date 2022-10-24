@@ -1,2 +1,2 @@
 def hello():
-    return "world"
+    return "hello world from libs.hello.world"
